@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+h2{
+	text-align:center;
+	
+}
+.container-all{
+	display:flex;
+	justify-content:center;
+}
+
+.cards-all{
+	margin-top:1rem;
+	margin-right:1rem;
+	transition: all 0.2s ease;
+	text-align:center;
+	border-radius:10px;
+}
+
+.cards-all:hover{
+	 box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
